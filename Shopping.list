@@ -1,0 +1,77 @@
+# ==========================================
+# 🛍️ 美国核心百货与综合电商 (Department Stores & Retail)
+# ==========================================
+DOMAIN-SUFFIX,amazon.com
+DOMAIN-SUFFIX,amazon-adsystem.com
+DOMAIN-SUFFIX,ebay.com
+DOMAIN-SUFFIX,walmart.com
+DOMAIN-SUFFIX,target.com
+DOMAIN-SUFFIX,costco.com
+DOMAIN-SUFFIX,macys.com
+DOMAIN-SUFFIX,nordstrom.com
+DOMAIN-SUFFIX,nordstromrack.com
+DOMAIN-SUFFIX,saksfifthavenue.com
+DOMAIN-SUFFIX,bloomingdales.com
+DOMAIN-SUFFIX,neimanmarcus.com
+DOMAIN-SUFFIX,bergdorfgoodman.com
+
+# ==========================================
+# 🏔️ 户外用品与运动鞋服 (Outdoor & Sports)
+# ==========================================
+# REI (包含主站和二手/特卖站)
+DOMAIN-SUFFIX,rei.com
+DOMAIN-SUFFIX,rei.com/used
+DOMAIN-KEYWORD,rei-outdoor
+# 其他核心户外与运动
+DOMAIN-SUFFIX,backcountry.com
+DOMAIN-SUFFIX,moosejaw.com
+DOMAIN-SUFFIX,campsaver.com
+DOMAIN-SUFFIX,steepandcheap.com
+DOMAIN-SUFFIX,evo.com
+DOMAIN-SUFFIX,arcteryx.com
+DOMAIN-SUFFIX,patagonia.com
+DOMAIN-SUFFIX,columbia.com
+DOMAIN-SUFFIX,thenorthface.com
+DOMAIN-SUFFIX,nike.com
+DOMAIN-SUFFIX,adidas.com
+DOMAIN-SUFFIX,underarmour.com
+DOMAIN-SUFFIX,lululemon.com
+DOMAIN-SUFFIX,footlocker.com
+DOMAIN-SUFFIX,finishline.com
+DOMAIN-SUFFIX,stockx.com
+DOMAIN-SUFFIX,goat.com
+
+# ==========================================
+# 💻 电子数码、影像与极客设备 (Electronics & Photo)
+# ==========================================
+DOMAIN-SUFFIX,bestbuy.com
+DOMAIN-SUFFIX,bhphotovideo.com
+DOMAIN-SUFFIX,newegg.com
+DOMAIN-SUFFIX,adorama.com
+DOMAIN-SUFFIX,gamestop.com
+
+# ==========================================
+# 💄 美妆护肤与时尚轻奢 (Beauty, Fashion & Luxury)
+# ==========================================
+DOMAIN-SUFFIX,sephora.com
+DOMAIN-SUFFIX,ulta.com
+DOMAIN-SUFFIX,coach.com
+DOMAIN-SUFFIX,coachoutlet.com
+DOMAIN-SUFFIX,michaelkors.com
+DOMAIN-SUFFIX,katespade.com
+DOMAIN-SUFFIX,ralphlauren.com
+DOMAIN-SUFFIX,jcrew.com
+DOMAIN-SUFFIX,gap.com
+DOMAIN-SUFFIX,oldnavy.com
+DOMAIN-SUFFIX,bananarepublic.com
+DOMAIN-SUFFIX,levis.com
+
+# ==========================================
+# 💊 保健品与母婴宠物 (Health, Baby & Pets)
+# ==========================================
+DOMAIN-SUFFIX,iherb.com
+DOMAIN-SUFFIX,puritan.com
+DOMAIN-SUFFIX,gnc.com
+DOMAIN-SUFFIX,carters.com
+DOMAIN-SUFFIX,gymboree.com
+DOMAIN-SUFFIX,chewy.com
