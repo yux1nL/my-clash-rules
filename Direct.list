@@ -15,9 +15,6 @@ DOMAIN-KEYWORD,baidu
 IP-CIDR,219.146.1.66/32,no-resolve
 
 # VPS
-IP-CIDR,67.215.237.67/24,no-resolve
-IP-CIDR,204.1.74.43/32,no-resolve
-IP-CIDR,45.143.234.163/24,no-resolve
 
 # 国内DNS
 DOMAIN-SUFFIX,dns.alidns.com
