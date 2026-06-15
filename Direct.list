@@ -9,15 +9,12 @@ DOMAIN-SUFFIX,hao123.com
 DOMAIN-SUFFIX,51zmt.top
 DOMAIN-SUFFIX,gying.net
 
-# 域名关键字匹配
-DOMAIN-KEYWORD,baidu
-
 # IP段匹配 (骨干网直连)
 IP-CIDR,219.146.1.66/32,no-resolve
 IP-CIDR,219.147.1.66/32,no-resolve
 
 # =========================================================
-# 国内主要公共 DNS (精准直连，防止本地运营商污染)
+# 国内主要公共 DNS 及本地 DNS (精准直连，防止本地运营商污染)
 # =========================================================
 DOMAIN-SUFFIX,dns.alidns.com
 DOMAIN-SUFFIX,doh.pub
@@ -28,13 +25,13 @@ IP-CIDR,180.76.76.76/32,no-resolve
 IP-CIDR,114.114.114.114/32,no-resolve
 IP-CIDR,114.114.115.115/32,no-resolve
 
-# 陕西本地 DNS 补充 (联通/移动/电信)
+# 陕西本地 DNS 补充
 IP-CIDR,221.11.1.1/32,no-resolve
 IP-CIDR,211.137.130.3/32,no-resolve
 IP-CIDR,218.30.19.40/32,no-resolve
 
 # =========================================================
-# 中国大陆主流核心大厂分类 (已完美去重与清洗)
+# 中国大陆主流核心大厂分类
 # =========================================================
 
 # 360
@@ -148,7 +145,6 @@ DOMAIN-SUFFIX,feelgood.cn
 DOMAIN-SUFFIX,feiliao.com
 DOMAIN-SUFFIX,huoshan.com
 DOMAIN-SUFFIX,huoshanzhibo.com
-DOMAIN-SUFFIX,ibytedapm.com
 DOMAIN-SUFFIX,iesdouyin.com
 DOMAIN-SUFFIX,ixigua.com
 DOMAIN-SUFFIX,pstatp.com
@@ -174,7 +170,7 @@ DOMAIN-SUFFIX,cctv.com
 DOMAIN-SUFFIX,cctvpic.com
 DOMAIN-SUFFIX,livechina.com
 
-# HuaWei
+# HuaWei / Honor
 DOMAIN-SUFFIX,dbankcdn.com
 DOMAIN-SUFFIX,hc-cdn.com
 DOMAIN-SUFFIX,hicloud.com
@@ -242,7 +238,7 @@ DOMAIN-SUFFIX,hitv.com
 DOMAIN-SUFFIX,hunantv.com
 DOMAIN-SUFFIX,mgtv.com
 
-# MI 小米
+# MI 小米 / 一加
 DOMAIN-SUFFIX,duokan.com
 DOMAIN-SUFFIX,mi-img.com
 DOMAIN-SUFFIX,mi.com
@@ -251,6 +247,7 @@ DOMAIN-SUFFIX,xiaomi.com
 DOMAIN-SUFFIX,xiaomi.net
 DOMAIN-SUFFIX,xiaomicp.com
 DOMAIN-SUFFIX,oneplus.com
+DOMAIN-SUFFIX,xiaomiev.com
 
 # NetEase 网易
 DOMAIN-SUFFIX,126.com
@@ -343,6 +340,16 @@ DOMAIN-SUFFIX,sandai.net
 DOMAIN-SUFFIX,thundercdn.com
 DOMAIN-SUFFIX,xunlei.com
 
+# 米哈游 / 游戏大厂补充
+DOMAIN-SUFFIX,mihoyo.com
+DOMAIN-SUFFIX,hoyoverse.com
+
+# 国产主流大模型 (直连免翻)
+DOMAIN-SUFFIX,deepseek.com
+DOMAIN-SUFFIX,moonshot.cn
+DOMAIN-SUFFIX,baichuan-ai.com
+DOMAIN-SUFFIX,zhipuai.cn
+
 # =========================================================
 # 公共直连前端/静态 CDN 资源
 # =========================================================
@@ -364,7 +371,7 @@ DOMAIN-SUFFIX,upyun.com
 DOMAIN-SUFFIX,wscdns.com
 
 # =========================================================
-# 其他独立的国内直连高频网站 (原列表去重保留项)
+# 其他独立的国内直连高频网站
 # =========================================================
 DOMAIN-SUFFIX,10010.com
 DOMAIN-SUFFIX,115.com
@@ -393,6 +400,7 @@ DOMAIN-SUFFIX,bitauto.com
 DOMAIN-SUFFIX,bosszhipin.com
 DOMAIN-SUFFIX,c-ctrip.com
 DOMAIN-SUFFIX,camera360.com
+DOMAIN-SUFFIX,cainiao.com
 DOMAIN-SUFFIX,cdnmama.com
 DOMAIN-SUFFIX,chaoxing.com
 DOMAIN-SUFFIX,che168.com
@@ -411,6 +419,7 @@ DOMAIN-SUFFIX,csdn.net
 DOMAIN-SUFFIX,ctrip.com
 DOMAIN-SUFFIX,dangdang.com
 DOMAIN-SUFFIX,dfcfw.com
+DOMAIN-SUFFIX,didiglobal.com
 DOMAIN-SUFFIX,duowan.com
 DOMAIN-SUFFIX,dxycdn.com
 DOMAIN-SUFFIX,easou.com
@@ -429,6 +438,8 @@ DOMAIN-SUFFIX,fresh-ideas.cc
 DOMAIN-SUFFIX,geetest.com
 DOMAIN-SUFFIX,geilicdn.com
 DOMAIN-SUFFIX,ghpym.com
+DOMAIN-SUFFIX,bydauto.com.cn
+DOMAIN-SUFFIX,nio.com
 DOMAIN-SUFFIX,godic.net
 DOMAIN-SUFFIX,guazi.com
 DOMAIN-SUFFIX,gwdang.com
@@ -460,6 +471,7 @@ DOMAIN-SUFFIX,knewone.com
 DOMAIN-SUFFIX,koowo.com
 DOMAIN-SUFFIX,ksyungslb.com
 DOMAIN-SUFFIX,kuaidi100.com
+DOMAIN-SUFFIX,kuaidi.com
 DOMAIN-SUFFIX,kugou.com
 DOMAIN-SUFFIX,lancdns.com
 DOMAIN-SUFFIX,landiannews.com
@@ -529,7 +541,7 @@ DOMAIN-SUFFIX,uxengine.net
 DOMAIN-SUFFIX,videocc.net
 DOMAIN-SUFFIX,vivo.com
 DOMAIN-SUFFIX,wandoujia.com
-DOMAIN-SUFFIX,weather.com
+DOMAIN-SUFFIX,weather.com.cn
 DOMAIN-SUFFIX,weico.cc
 DOMAIN-SUFFIX,weidian.com
 DOMAIN-SUFFIX,weiphone.com
