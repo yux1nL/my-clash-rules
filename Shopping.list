@@ -1,77 +1,122 @@
 # ==========================================
 # 🛍️ 美国核心百货与综合电商 (Department Stores & Retail)
 # ==========================================
+# 纯美区亚马逊生态群 (去除了日亚，补全美区 App 商品流与快速结账)
 DOMAIN-SUFFIX,amazon.com
+DOMAIN-SUFFIX,media-amazon.com
+DOMAIN-SUFFIX,ssl-images-amazon.com
 DOMAIN-SUFFIX,amazon-adsystem.com
+DOMAIN-SUFFIX,a2z.com
+DOMAIN-SUFFIX,images-amazon.com
+# 美区 eBay 生态群 (网页端 + 移动端 App)
 DOMAIN-SUFFIX,ebay.com
+DOMAIN-SUFFIX,ebayimg.com
+DOMAIN-SUFFIX,ebaystatic.com
+# 美国本土超级零售巨头 (全线 App 核心接口)
 DOMAIN-SUFFIX,walmart.com
+DOMAIN-SUFFIX,walmartimages.com
 DOMAIN-SUFFIX,target.com
+DOMAIN-SUFFIX,targetimg.com
 DOMAIN-SUFFIX,costco.com
+DOMAIN-SUFFIX,costco-static.com
+# 美区高频跨境/独立站零售 App 
+DOMAIN-SUFFIX,temu.com
+DOMAIN-SUFFIX,shein.com
+DOMAIN-SUFFIX,tiktokshop.com
+# 传统高端/老牌全美连锁百货 (包含全线官方移动客户端 API)
 DOMAIN-SUFFIX,macys.com
+DOMAIN-SUFFIX,macysassets.com
 DOMAIN-SUFFIX,nordstrom.com
 DOMAIN-SUFFIX,nordstromrack.com
+DOMAIN-SUFFIX,nordstromimage.com
 DOMAIN-SUFFIX,saksfifthavenue.com
 DOMAIN-SUFFIX,bloomingdales.com
 DOMAIN-SUFFIX,neimanmarcus.com
 DOMAIN-SUFFIX,bergdorfgoodman.com
+# 增补：美国三大国民级神仙折扣百货群 (海淘 App 必刷站)
+DOMAIN-SUFFIX,tjmaxx.com
+DOMAIN-SUFFIX,marshalls.com
+DOMAIN-SUFFIX,sierra.com
 
 # ==========================================
 # 🏔️ 户外用品与运动鞋服 (Outdoor & Sports)
 # ==========================================
-# REI (包含主站和二手/特卖站)
+# 始祖鸟 Arc'teryx 专项 (纯美区/北美 App、图片服务器、母公司 Amer 登录接口)
+DOMAIN-SUFFIX,arcteryx.com
+DOMAIN-KEYWORD,arcteryx
+# 格里高利 Gregory 专项 (纯美区及北美专属 App 静态网店资源)
+DOMAIN-SUFFIX,gregory.com
+DOMAIN-SUFFIX,gregorypacks.com
+# 美国核心户外零售大厂 (包含全美最大实体体育及户外连锁 App)
 DOMAIN-SUFFIX,rei.com
-DOMAIN-SUFFIX,rei.com/used
 DOMAIN-KEYWORD,rei-outdoor
-# 其他核心户外与运动
 DOMAIN-SUFFIX,backcountry.com
-DOMAIN-SUFFIX,moosejaw.com
 DOMAIN-SUFFIX,campsaver.com
 DOMAIN-SUFFIX,steepandcheap.com
 DOMAIN-SUFFIX,evo.com
-DOMAIN-SUFFIX,arcteryx.com
+DOMAIN-SUFFIX,dickssportinggoods.com
+# 一线顶级运动/户外品牌美区官网及官方专属 App 域名
 DOMAIN-SUFFIX,patagonia.com
 DOMAIN-SUFFIX,columbia.com
 DOMAIN-SUFFIX,thenorthface.com
 DOMAIN-SUFFIX,nike.com
+DOMAIN-SUFFIX,nikecdn.com
 DOMAIN-SUFFIX,adidas.com
 DOMAIN-SUFFIX,underarmour.com
 DOMAIN-SUFFIX,lululemon.com
+# 潮鞋买手与二级市场 App (球鞋海淘、抽鞋防封防风控核心)
 DOMAIN-SUFFIX,footlocker.com
 DOMAIN-SUFFIX,finishline.com
 DOMAIN-SUFFIX,stockx.com
+DOMAIN-SUFFIX,stockx-assets.com
 DOMAIN-SUFFIX,goat.com
+DOMAIN-SUFFIX,stadiumgoods.com
 
 # ==========================================
 # 💻 电子数码、影像与极客设备 (Electronics & Photo)
 # ==========================================
+# 纯美区 3C 数码及电玩发烧友 App
 DOMAIN-SUFFIX,bestbuy.com
 DOMAIN-SUFFIX,bhphotovideo.com
 DOMAIN-SUFFIX,newegg.com
+DOMAIN-SUFFIX,neweggimages.com
 DOMAIN-SUFFIX,adorama.com
 DOMAIN-SUFFIX,gamestop.com
 
 # ==========================================
 # 💄 美妆护肤与时尚轻奢 (Beauty, Fashion & Luxury)
 # ==========================================
+# 美妆 App 双雄 (Ulta 对网络环境要求极高，必须全程固定在美国住宅 IP)
 DOMAIN-SUFFIX,sephora.com
 DOMAIN-SUFFIX,ulta.com
+# 轻奢/高阶时尚品牌美区专属 App 
 DOMAIN-SUFFIX,coach.com
 DOMAIN-SUFFIX,coachoutlet.com
 DOMAIN-SUFFIX,michaelkors.com
 DOMAIN-SUFFIX,katespade.com
 DOMAIN-SUFFIX,ralphlauren.com
 DOMAIN-SUFFIX,jcrew.com
+# GAP 集团群全线美区 App 通用资源域
 DOMAIN-SUFFIX,gap.com
 DOMAIN-SUFFIX,oldnavy.com
 DOMAIN-SUFFIX,bananarepublic.com
+DOMAIN-SUFFIX,athleta.com
+# 牛仔与高人气时尚奢侈品综合 App 站
 DOMAIN-SUFFIX,levis.com
+DOMAIN-SUFFIX,ssense.com
+DOMAIN-SUFFIX,revolve.com
 
 # ==========================================
 # 💊 保健品与母婴宠物 (Health, Baby & Pets)
 # ==========================================
+# 全美最主流保健品 App 
 DOMAIN-SUFFIX,iherb.com
+DOMAIN-SUFFIX,iherbcontent.com
 DOMAIN-SUFFIX,puritan.com
 DOMAIN-SUFFIX,gnc.com
+# 美国本土母婴童装 App 
 DOMAIN-SUFFIX,carters.com
-DOMAIN-SUFFIX,gymboree.com
+DOMAIN-SUFFIX,oshkosh.com
+DOMAIN-SUFFIX,childrensplace.com
+# 美国宠物用品第一 App (对非美国 IP 风控极严)
 DOMAIN-SUFFIX,chewy.com
