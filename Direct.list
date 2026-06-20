@@ -25,5 +25,3 @@ IP-CIDR,114.114.115.115/32,no-resolve
 IP-CIDR,221.11.1.1/32,no-resolve
 IP-CIDR,211.137.130.3/32,no-resolve
 IP-CIDR,218.30.19.40/32,no-resolve
-# sb企安易学
-DOMAIN-SUFFIX,esecurityuni.com
