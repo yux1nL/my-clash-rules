@@ -7,6 +7,9 @@ DOMAIN-SUFFIX,lanzov.com
 DOMAIN-SUFFIX,hao123.com
 DOMAIN-SUFFIX,51zmt.top
 DOMAIN-SUFFIX,gying.net
+#个人需要
+DOMAIN,yswmk.sovellzp.com
+DOMAIN,resource-api.esecurityuni.com
 # IP段匹配 (骨干网直连)
 IP-CIDR,219.146.1.66/32,no-resolve
 IP-CIDR,219.147.1.66/32,no-resolve
