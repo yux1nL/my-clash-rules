@@ -1,0 +1,32 @@
+! 登录 / 认证系统
+@@||google.com^
+@@||googleapis.com^
+@@||apple.com^
+@@||microsoft.com^
+@@||login.microsoftonline.com^
+@@||okta.com^
+@@||auth0.com^
+! 支付系统
+@@||stripe.com^
+@@||paypal.com^
+@@||braintreegateway.com^
+@@||adyen.com^
+@@||checkout.com^
+@@||squareup.com^
+! 客服 / Chat / 工单系统
+@@||zendesk.com^
+@@||salesforce.com^
+@@||salesforceliveagent.com^
+@@||genesys.com^
+@@||freshdesk.com^
+@@||intercom.io^
+@@||intercomcdn.com^
+! CDN / 脚本加载
+@@||cloudfront.net^
+@@||fastly.net^
+@@||akamaihd.net^
+@@||jsdelivr.net^
+@@||unpkg.com^
+! 常见电商/零售系统
+@@||rei.com^
+@@||shopify.com^
