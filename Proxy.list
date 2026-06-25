@@ -5,12 +5,10 @@ DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,googleapis.cn
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,canva.com
-DOMAIN-SUFFIX,ebay.com
 DOMAIN-SUFFIX,fiverr.com
 DOMAIN-SUFFIX,capcut.com
 DOMAIN-SUFFIX,steamcommunity.com
 DOMAIN-SUFFIX,polymarket.com
-
 # =========================================================
 # 2. 🛡️ 网络隐私 / 代理工具官方网站 (社区/论坛/文档)
 # =========================================================
@@ -19,55 +17,18 @@ DOMAIN-SUFFIX,metacubex.one
 DOMAIN-SUFFIX,hostloc.net
 DOMAIN-SUFFIX,nodeseek.com
 DOMAIN-SUFFIX,bulianglin.com
-
 # =========================================================
-# 4. 🎦 盗版影视、电影站、BT 种子和网络电视 (IPTV)
+# 3. 🎦 海外华人影视、电影站 (纯网页端)
 # =========================================================
-# 爱壹帆影视系列
+# 爱壹帆等影视系列 (仅网页走代理，防屏蔽)
 DOMAIN-SUFFIX,aiyifan.tv
 DOMAIN-SUFFIX,yfsp.tv
 DOMAIN-SUFFIX,wyav.tv
 DOMAIN-SUFFIX,xiaoxintv.cc
-# 经典美剧与电影网
 DOMAIN-SUFFIX,meijutt.cc
 DOMAIN-SUFFIX,piaohua.com
-# BT 种子站与加速 Tracker 服务器群
-DOMAIN-SUFFIX,rarbg.to
-DOMAIN-SUFFIX,gbitt.info
-DOMAIN-SUFFIX,publictracker.xyz
-DOMAIN-SUFFIX,filetracker.xyz
-DOMAIN-SUFFIX,itzmx.com
-DOMAIN-SUFFIX,tace.ru
-DOMAIN-SUFFIX,uifr.ru
-DOMAIN-SUFFIX,nanoha.org
-DOMAIN-SUFFIX,darmowy-torrent.pl
-DOMAIN-SUFFIX,hama3.net
-DOMAIN-SUFFIX,mercax.com
-DOMAIN-SUFFIX,iriseden.eu
-DOMAIN-SUFFIX,altrosky.nl
-DOMAIN-SUFFIX,leech.ie
-
 # =========================================================
-# 5. 🔍 代理/隐私检测与查 IP 工具网站 (测试翻墙与泄露情况)
-# =========================================================
-DOMAIN-SUFFIX,ip111.cn
-DOMAIN-SUFFIX,ipinfo.io
-DOMAIN-SUFFIX,ip-score.com
-DOMAIN-SUFFIX,ip-api.com
-DOMAIN-SUFFIX,browserscan.net
-DOMAIN-SUFFIX,ipify.org
-DOMAIN-SUFFIX,dnsleaktest.com
-DOMAIN-SUFFIX,dnsleaktest.org
-DOMAIN-SUFFIX,dnscheck.tools
-DOMAIN-SUFFIX,ipleak.net
-DOMAIN-SUFFIX,browserleaks.com
-DOMAIN-SUFFIX,browserleaks.org
-DOMAIN-SUFFIX,browserleaks.net
-DOMAIN-SUFFIX,whatsmydns.me
-DOMAIN-SUFFIX,arin.net
-
-# =========================================================
-# 6. 🛠️ 其他杂项 (海外公共服务、CDN、音视频管理与报错)
+# 4. 🛠️ 杂项 (海外公共服务、CDN、音视频管理与刮削)
 # =========================================================
 DOMAIN-SUFFIX,fastlydns.net
 DOMAIN-SUFFIX,signalr.net
@@ -80,11 +41,9 @@ DOMAIN-SUFFIX,coinglass.com
 DOMAIN-SUFFIX,streetfighter.com
 DOMAIN-SUFFIX,capcom.com
 DOMAIN-SUFFIX,piliapp.com
-DOMAIN-SUFFIX,shittyurl.org
 DOMAIN-SUFFIX,i2p.rocks
-
 # =========================================================
-# 🔒 全球顶级海外公共 DNS 
+# 5. 🔒 全球顶级海外公共 DNS (防止本地运营商劫持污染)
 # =========================================================
 # 域名匹配
 DOMAIN-SUFFIX,dns.google
@@ -97,8 +56,7 @@ DOMAIN-SUFFIX,dns.umbrella.com
 DOMAIN-SUFFIX,doh.opendns.com
 DOMAIN-SUFFIX,dns.quad9.net
 DOMAIN-SUFFIX,surfsharkdns.com
-
-# IP 精准匹配 (必须走代理，防止本地运营商污染)
+# IP 精准匹配 (必须走代理，打通 DNS 隧道)
 IP-CIDR,8.8.8.8/32,no-resolve
 IP-CIDR,8.8.4.4/32,no-resolve
 IP-CIDR,1.1.1.1/32,no-resolve
@@ -106,10 +64,9 @@ IP-CIDR,1.0.0.1/32,no-resolve
 IP-CIDR,185.222.222.222/32,no-resolve
 IP-CIDR,208.67.222.222/32,no-resolve
 IP-CIDR,208.67.220.220/32,no-resolve
-# My VPS
-IP-CIDR,67.215.237.67/24,no-resolve
+# 自定义及特定网段 (已修正 CIDR 语法)
+IP-CIDR,67.215.237.0/24,no-resolve
 IP-CIDR,204.1.74.43/32,no-resolve
-IP-CIDR,45.143.234.163/24,no-resolve
-
-# 谷歌服务大网段
+IP-CIDR,45.143.234.0/24,no-resolve
+# 谷歌服务大网段兜底
 IP-CIDR,142.250.0.0/16,no-resolve
