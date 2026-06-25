@@ -2,7 +2,6 @@
 # 1. IP 基础查询 / 伪装度与环境检测 (Whoer, BrowserLeaks 等)
 # =========================================================
 DOMAIN-SUFFIX,whoer.net
-DOMAIN-SUFFIX,whoer.com
 DOMAIN-SUFFIX,whoisip.me
 DOMAIN-SUFFIX,browserleaks.com
 DOMAIN-SUFFIX,browserleaks.org
@@ -14,7 +13,9 @@ DOMAIN-SUFFIX,incolumitas.com
 DOMAIN-SUFFIX,scamalytics.com
 DOMAIN-SUFFIX,ip2proxy.com
 DOMAIN-SUFFIX,vpnapi.io
-
+DOMAIN-SUFFIX,pixelscan.net
+DOMAIN-SUFFIX,ipqualityscore.com
+DOMAIN-SUFFIX,proxycheck.io
 # =========================================================
 # 2. 轻量化 IP API / 命令行及网页查 IP
 # =========================================================
@@ -25,13 +26,9 @@ DOMAIN-SUFFIX,ipapi.co
 DOMAIN-SUFFIX,ip.sb
 DOMAIN-SUFFIX,ipify.org
 DOMAIN-SUFFIX,ifconfig.me
-DOMAIN-SUFFIX,ip125.com
-DOMAIN-SUFFIX,ip111.cn
 DOMAIN-SUFFIX,ipw.cn
 DOMAIN-SUFFIX,skk.moe
 DOMAIN-SUFFIX,jsonp-ip.com
-DOMAIN-SUFFIX,whatismyip.com
-DOMAIN-SUFFIX,whatismyip.com.tw
 DOMAIN-SUFFIX,ipaddress.me
 DOMAIN-SUFFIX,whois.pconline.com.cn
 # =========================================================
@@ -63,7 +60,6 @@ DOMAIN-SUFFIX,test-ipv6.com
 # =========================================================
 DOMAIN-SUFFIX,vultr.com
 DOMAIN-SUFFIX,workers.dev
-DOMAIN-SUFFIX,sspanel.net
 DOMAIN-SUFFIX,b0.upaiyun.com
 DOMAIN-SUFFIX,asn247.net
 DOMAIN-SUFFIX,astrill.org
