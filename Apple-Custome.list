@@ -1,13 +1,20 @@
+# =========================================================
+# Apple 核心 AI 与私密代理 (强制走美区节点)
+# =========================================================
+# --- iCloud Private Relay ---
 DOMAIN-KEYWORD,apple-relay
 DOMAIN-SUFFIX,apple-relay.cloudflare.com
 DOMAIN-SUFFIX,apple-relay.apple.com
-
-# Apple Intelligence：
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+DOMAIN-SUFFIX,mask.icloud.com
+DOMAIN-SUFFIX,mask-h2.icloud.com
+DOMAIN-SUFFIX,cp4.cloudflare.com
+# --- Apple Intelligence & Siri ---
 DOMAIN-SUFFIX,guzzoni.apple.com
 DOMAIN-SUFFIX,smoot.apple.com
-DOMAIN-SUFFIX,apple-relay.fastly-edge.com
-DOMAIN-SUFFIX,cp4.cloudflare.com
-DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
+DOMAIN-SUFFIX,api.smoot.apple.com
+DOMAIN-SUFFIX,siri.apple.com
+DOMAIN-SUFFIX,seed-sequoia.siri.apple.com
 DOMAIN-SUFFIX,gateway.icloud.com
-DOMAIN-SUFFIX,apps.mzstatic.com
+DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
 DOMAIN-SUFFIX,apple-dns.net
