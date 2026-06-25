@@ -1,5 +1,5 @@
 # my-clash-rules
-Block-广告拦截/黑名单(停用）
+Block-(停用）我使用设备+AGH+openclash
 TEST-测试组
 Direct-直连组
 AI-国外AI（Meta，Gemini，Copilot，Grok）（停用）
