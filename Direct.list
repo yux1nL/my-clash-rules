@@ -8,21 +8,33 @@ DOMAIN-SUFFIX,gying.net
 # 个人专属需要
 DOMAIN,yswmk.sovellzp.com
 DOMAIN,resource-api.esecurityuni.com
-# 底层时间同步 (NTP) - 确保 TLS 握手不报错
+
+# =========================================================
+# 操作系统底层时间同步 (NTP) - 确保 TLS 握手不报错
+# =========================================================
 DOMAIN-SUFFIX,time.windows.com
+DOMAIN-SUFFIX,time.apple.com
 DOMAIN-SUFFIX,ntp.aliyun.com
 DOMAIN-SUFFIX,ntp.tencent.com
-DOMAIN-SUFFIX,time.apple.com
-# 终端网络连通性探测 (解决 Wi-Fi 连上后转圈圈、提示无网络)
+DOMAIN-SUFFIX,pool.ntp.org      # [新增] 国际标准 NTP 池，兜底
+DOMAIN-SUFFIX,cn.pool.ntp.org   # [新增] 中国区 NTP 池，兜底
+
+# =========================================================
+# 终端网络连通性探测 (解决连上网络后转圈圈、提示无网络)
+# =========================================================
 DOMAIN,captive.apple.com
 DOMAIN,msftconnecttest.com
+DOMAIN,www.msftncsi.com         # [新增] Windows NCSI 核心探测域名
+DOMAIN,msftncsi.com             # [新增] 配合上一条，防止 Windows 误报无 Internet
 DOMAIN,connect.rom.miui.com
 DOMAIN,connectivitycheck.gstatic.com
+
 # =========================================================
-# 国内主要公共 DNS 及本地 DNS (精准直连，防止本地运营商污染)
+# 国内主要公共 DNS 及本地 DNS (精准直连，防止 Fake-IP 污染)
 # =========================================================
 DOMAIN-SUFFIX,dns.alidns.com
 DOMAIN-SUFFIX,doh.pub
+
 # 公共 IPv4 DNS
 IP-CIDR,119.29.29.29/32,no-resolve
 IP-CIDR,223.5.5.5/32,no-resolve
@@ -30,10 +42,12 @@ IP-CIDR,223.6.6.6/32,no-resolve
 IP-CIDR,180.76.76.76/32,no-resolve
 IP-CIDR,114.114.114.114/32,no-resolve
 IP-CIDR,114.114.115.115/32,no-resolve
+
 # 公共 IPv6 DNS (保障外网直连与 DDNS 解析效率)
 IP-CIDR6,2400:3200::1/128,no-resolve
-IP-CIDR6,2400:3200:b69:8::1/128,no-resolve
+IP-CIDR6,2400:3200:b69::1/128,no-resolve  # [修正] 阿里云备用 IPv6 DNS 格式
 IP-CIDR6,2402:4e00::/128,no-resolve
+
 # 陕西本地 DNS 补充
 IP-CIDR,221.11.1.1/32,no-resolve
 IP-CIDR,211.137.130.3/32,no-resolve
