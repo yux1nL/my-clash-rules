@@ -1,20 +1,35 @@
 # =========================================================
-# Apple 核心 AI 与私密代理 (强制走美区节点)
+# Apple 核心 AI 与私密代理 (强制走美区节点，保障 Apple Intelligence)
 # =========================================================
-# --- iCloud Private Relay ---
-DOMAIN-KEYWORD,apple-relay
-DOMAIN-SUFFIX,apple-relay.cloudflare.com
-DOMAIN-SUFFIX,apple-relay.apple.com
-DOMAIN-SUFFIX,apple-relay.fastly-edge.com
-DOMAIN-SUFFIX,mask.icloud.com
-DOMAIN-SUFFIX,mask-h2.icloud.com
-DOMAIN-SUFFIX,cp4.cloudflare.com
-# --- Apple Intelligence & Siri ---
+
+# --- 1. Apple Intelligence & Private Cloud Compute (PCC) 核心 ---
+# 苹果云端 AI 算力集群，Apple Intelligence 离线模型无法处理时必定请求的域名
+DOMAIN-SUFFIX,pcc.apple.com
+DOMAIN-SUFFIX,intelligence.apple.com
+DOMAIN-SUFFIX,math.apple.com
+DOMAIN-SUFFIX,siri.cp.apple.com
+
+# --- 2. 传统 Siri 与搜索建议 (Spotlight) ---
 DOMAIN-SUFFIX,guzzoni.apple.com
 DOMAIN-SUFFIX,smoot.apple.com
 DOMAIN-SUFFIX,api.smoot.apple.com
 DOMAIN-SUFFIX,siri.apple.com
 DOMAIN-SUFFIX,seed-sequoia.siri.apple.com
-DOMAIN-SUFFIX,gateway.icloud.com
+
+# --- 3. 定位欺骗与网关 (绕过 Apple 区域风控的核心) ---
+# 苹果设备底层判定所在国家/地区的关键定位接口，必须走美国节点
 DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
+DOMAIN-SUFFIX,gspe35-ssl.ls.apple.com
+DOMAIN-SUFFIX,gateway.icloud.com
 DOMAIN-SUFFIX,apple-dns.net
+
+# --- 4. iCloud Private Relay (私密接力) ---
+# 强制 Private Relay 的握手流量走代理，以获取海外/美区的出口 IP
+DOMAIN-KEYWORD,apple-relay
+DOMAIN-SUFFIX,apple-relay.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.apple.com
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+DOMAIN-SUFFIX,mask.icloud.com
+DOMAIN-SUFFIX,mask-api.icloud.com
+DOMAIN-SUFFIX,mask-h2.icloud.com
+DOMAIN-SUFFIX,cp4.cloudflare.com
