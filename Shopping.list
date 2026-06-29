@@ -12,6 +12,12 @@ DOMAIN-SUFFIX,datadome.co
 DOMAIN-SUFFIX,kasada.io
 DOMAIN-SUFFIX,bluecore.com
 DOMAIN-SUFFIX,yotpo.com
+# 顶级设备指纹与风控库，应对严格的账单地址审查
+DOMAIN-SUFFIX,threatmetrix.com
+DOMAIN-SUFFIX,iesnare.com
+DOMAIN-SUFFIX,fraud.net
+DOMAIN-SUFFIX,minfraud.com
+
 # ==========================================
 # 💳 Payment Gateways & Checkout
 # ==========================================
@@ -28,6 +34,10 @@ DOMAIN-SUFFIX,adyenpayments.com
 DOMAIN-SUFFIX,klarna.com
 DOMAIN-SUFFIX,affirm.com
 DOMAIN-SUFFIX,afterpay.com
+# 美国主流电商广泛使用的 Braintree 支付网关
+DOMAIN-SUFFIX,braintreegateway.com
+DOMAIN-SUFFIX,braintree-api.com
+
 # ==========================================
 # 🛍️ 美国核心百货与综合电商 (Department Stores & Retail)
 # ==========================================
@@ -62,11 +72,13 @@ DOMAIN-SUFFIX,tjmaxx.com
 DOMAIN-SUFFIX,marshalls.com
 DOMAIN-SUFFIX,sierra.com
 DOMAIN-SUFFIX,samsclub.com
+DOMAIN-SUFFIX,samsclub.net
 DOMAIN-SUFFIX,kohls.com
 DOMAIN-SUFFIX,jcpenney.com
 DOMAIN-SUFFIX,dillards.com
 DOMAIN-SUFFIX,crateandbarrel.com
 DOMAIN-SUFFIX,wayfair.com
+
 # ==========================================
 # 🏔️ 户外用品与运动鞋服 (Outdoor & Sports)
 # ==========================================
@@ -91,6 +103,12 @@ DOMAIN-SUFFIX,osprey.com
 DOMAIN-SUFFIX,mysteryranch.com
 DOMAIN-SUFFIX,salomon.com
 DOMAIN-SUFFIX,hoka.com
+# 美国主流硬核户外与服饰品牌
+DOMAIN-SUFFIX,blackdiamondequipment.com
+DOMAIN-SUFFIX,outdoorresearch.com
+DOMAIN-SUFFIX,marmot.com
+DOMAIN-SUFFIX,mammut.com
+# ------------------------------------------
 DOMAIN-SUFFIX,nike.com
 DOMAIN-SUFFIX,nikecdn.com
 DOMAIN-SUFFIX,nike.cloud
@@ -113,6 +131,7 @@ DOMAIN-SUFFIX,flightclub.com
 DOMAIN-SUFFIX,champssports.com
 DOMAIN-SUFFIX,jdsports.com
 DOMAIN-SUFFIX,zappos.com
+
 # ==========================================
 # 💻 服饰、美妆、数码及其他 (Fashion, Beauty, Tech & Health)
 # ==========================================
@@ -163,3 +182,14 @@ DOMAIN-SUFFIX,petco.com
 DOMAIN-SUFFIX,rakuten.com
 DOMAIN-SUFFIX,joinhoney.com
 DOMAIN-SUFFIX,topcashback.com
+
+# ==========================================
+# 📦 美国本土物流与转运追踪 (运往免税州必配)
+# ==========================================
+DOMAIN-SUFFIX,ups.com
+DOMAIN-SUFFIX,usps.com
+DOMAIN-SUFFIX,fedex.com
+DOMAIN-SUFFIX,ontrac.com
+DOMAIN-SUFFIX,lasership.com
+DOMAIN-SUFFIX,dhl.com
+DOMAIN-SUFFIX,aftership.com
