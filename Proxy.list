@@ -1,49 +1,58 @@
 # =========================================================
-# 1. 🏢 海外正规大厂服务 / 生产力工具 (建议走 PROXY)
+# 1. 🏢 海外正规大厂服务 / 生产力工具 (不含 Google/微软/Apple/GitHub/AI)
 # =========================================================
-DOMAIN-SUFFIX,googleapis.com
-DOMAIN-SUFFIX,googleapis.cn
-DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,canva.com
 DOMAIN-SUFFIX,fiverr.com
 DOMAIN-SUFFIX,capcut.com
-DOMAIN-SUFFIX,steamcommunity.com
 DOMAIN-SUFFIX,polymarket.com
+
 # =========================================================
-# 2. 🛡️ 网络隐私 / 代理工具官方网站 (社区/论坛/文档)
+# 2. 🛡️ 网络隐私 / 代理与住宅 IP 供应商后台 (防 CF 质询与连接重置)
 # =========================================================
 DOMAIN-SUFFIX,clash-cn.com
 DOMAIN-SUFFIX,metacubex.one
 DOMAIN-SUFFIX,hostloc.net
 DOMAIN-SUFFIX,nodeseek.com
 DOMAIN-SUFFIX,bulianglin.com
+# 补充：常用 VPS 与住宅代理/网络工具控制台
+DOMAIN-SUFFIX,vultr.com
+DOMAIN-SUFFIX,iproyal.com
+DOMAIN-SUFFIX,brightdata.com
+DOMAIN-SUFFIX,webshare.io
+DOMAIN-SUFFIX,decodo.com
+
 # =========================================================
-# 3. 🎦 海外华人影视、电影站 (纯网页端)
+# 3. 🎦 海外华人影视、电影站 (国内常遭屏蔽，且不在常规 Media 库中)
 # =========================================================
-# 爱壹帆等影视系列 (仅网页走代理，防屏蔽)
 DOMAIN-SUFFIX,aiyifan.tv
 DOMAIN-SUFFIX,yfsp.tv
 DOMAIN-SUFFIX,wyav.tv
 DOMAIN-SUFFIX,xiaoxintv.cc
 DOMAIN-SUFFIX,meijutt.cc
 DOMAIN-SUFFIX,piaohua.com
+
 # =========================================================
-# 4. 🛠️ 杂项 (海外公共服务、CDN、音视频管理与刮削)
+# 4. 🛠️ 杂项 (海外公共服务、CDN、音视频管理与流媒体刮削)
 # =========================================================
 DOMAIN-SUFFIX,fastlydns.net
 DOMAIN-SUFFIX,signalr.net
 DOMAIN-SUFFIX,bugsnag.com
 DOMAIN-SUFFIX,onesignal.com
-DOMAIN-SUFFIX,plex.tv
-DOMAIN-SUFFIX,plexapp.com
-DOMAIN-SUFFIX,plexmediaserver.com
 DOMAIN-SUFFIX,coinglass.com
 DOMAIN-SUFFIX,streetfighter.com
 DOMAIN-SUFFIX,capcom.com
 DOMAIN-SUFFIX,piliapp.com
 DOMAIN-SUFFIX,i2p.rocks
+# 媒体服务器及刮削兜底（若未被上层 GlobalMedia 拦截则在此处走代理）
+DOMAIN-SUFFIX,plex.tv
+DOMAIN-SUFFIX,plexapp.com
+DOMAIN-SUFFIX,plexmediaserver.com
+DOMAIN-SUFFIX,themoviedb.org
+DOMAIN-SUFFIX,tmdb.org
+DOMAIN-SUFFIX,thetvdb.com
+
 # =========================================================
-# 5. 🔒 全球顶级海外公共 DNS (防止本地运营商劫持污染)
+# 5. 🔒 全球顶级海外公共 DNS (精准走代理，打通加密 DNS 隧道)
 # =========================================================
 # 域名匹配
 DOMAIN-SUFFIX,dns.google
@@ -55,8 +64,7 @@ DOMAIN-SUFFIX,hk-hkg.doh.sb
 DOMAIN-SUFFIX,dns.umbrella.com
 DOMAIN-SUFFIX,doh.opendns.com
 DOMAIN-SUFFIX,dns.quad9.net
-DOMAIN-SUFFIX,surfsharkdns.com
-# IP 精准匹配 (必须走代理，打通 DNS 隧道)
+# IP 精准匹配 (必须走代理，防止本地运营商劫持)
 IP-CIDR,8.8.8.8/32,no-resolve
 IP-CIDR,8.8.4.4/32,no-resolve
 IP-CIDR,1.1.1.1/32,no-resolve
@@ -64,7 +72,7 @@ IP-CIDR,1.0.0.1/32,no-resolve
 IP-CIDR,185.222.222.222/32,no-resolve
 IP-CIDR,208.67.222.222/32,no-resolve
 IP-CIDR,208.67.220.220/32,no-resolve
-# 自定义及特定网段 (已修正 CIDR 语法)
+# 自定义及特定加密 DNS 网段
 IP-CIDR,67.215.237.0/24,no-resolve
 IP-CIDR,204.1.74.43/32,no-resolve
 IP-CIDR,45.143.234.0/24,no-resolve
