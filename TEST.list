@@ -1,5 +1,5 @@
 # =========================================================
-# 1. IP 基础查询 / 伪装度与环境检测 (Whoer, BrowserLeaks 等)
+# 1. IP 基礎查詢 / 偽裝度與環境檢測 (Whoer, BrowserLeaks 等)
 # =========================================================
 DOMAIN-SUFFIX,whoer.net
 DOMAIN-SUFFIX,whoisip.me
@@ -15,24 +15,34 @@ DOMAIN-SUFFIX,ip2proxy.com
 DOMAIN-SUFFIX,vpnapi.io
 DOMAIN-SUFFIX,pixelscan.net
 DOMAIN-SUFFIX,ipqualityscore.com
+DOMAIN-SUFFIX,ipqs.com
 DOMAIN-SUFFIX,proxycheck.io
+DOMAIN-SUFFIX,iplark.com
+DOMAIN-SUFFIX,myip.com
+DOMAIN-SUFFIX,ip-checker.net
+DOMAIN-SUFFIX,ip.tool.lu
+DOMAIN-SUFFIX,ipchaxun.com
 # =========================================================
-# 2. 轻量化 IP API / 命令行及网页查 IP
+# 2. 輕量化 IP API / 命令列及網頁查 IP
 # =========================================================
 DOMAIN-SUFFIX,ipip.net
 DOMAIN-SUFFIX,ipinfo.io
 DOMAIN-SUFFIX,ip-api.com
 DOMAIN-SUFFIX,ipapi.co
+DOMAIN-SUFFIX,ipapi.is
 DOMAIN-SUFFIX,ip.sb
 DOMAIN-SUFFIX,ipify.org
+DOMAIN-SUFFIX,icanhazip.com
+DOMAIN-SUFFIX,ident.me
 DOMAIN-SUFFIX,ifconfig.me
+DOMAIN-SUFFIX,ifconfig.co
 DOMAIN-SUFFIX,ipw.cn
 DOMAIN-SUFFIX,skk.moe
 DOMAIN-SUFFIX,jsonp-ip.com
 DOMAIN-SUFFIX,ipaddress.me
 DOMAIN-SUFFIX,whois.pconline.com.cn
 # =========================================================
-# 3. DNS 泄漏与 WebRTC 测试
+# 3. DNS 洩漏、WebRTC 與網路連通性測試
 # =========================================================
 DOMAIN-SUFFIX,dnscheck.tools
 DOMAIN-SUFFIX,dnsleaktest.com
@@ -46,8 +56,9 @@ DOMAIN-SUFFIX,null-addr.org
 DOMAIN-SUFFIX,null-addr.biz
 DOMAIN-SUFFIX,null-addr.info
 DOMAIN-SUFFIX,addr.tools
+DOMAIN-SUFFIX,ping.pe
 # =========================================================
-# 4. 速度测试 / IPv6 测试 (Speedtest, Fast 等)
+# 4. 速度測試 / IPv6 測試 (Speedtest, Fast 等)
 # =========================================================
 DOMAIN,speed.cloudflare.com
 DOMAIN-SUFFIX,fast.com
@@ -56,7 +67,23 @@ DOMAIN-SUFFIX,speedtest.cn
 DOMAIN-SUFFIX,speedcheck.org
 DOMAIN-SUFFIX,test-ipv6.com
 # =========================================================
-# 5. 云服务/节点商测试与特定排错
+# 5. 進階 IP 欺詐 / 商業風控與威脅情報資料庫 (跨國電商核心風控)
+# =========================================================
+DOMAIN-SUFFIX,spamhaus.org
+DOMAIN-SUFFIX,maxmind.com
+DOMAIN-SUFFIX,spur.us
+DOMAIN-SUFFIX,abuseipdb.com
+DOMAIN-SUFFIX,ipdata.co
+DOMAIN-SUFFIX,fraudguard.io
+DOMAIN-SUFFIX,ip2location.com
+DOMAIN-SUFFIX,greynoise.io
+DOMAIN-SUFFIX,talosintelligence.com
+DOMAIN-SUFFIX,criminalip.io
+DOMAIN-SUFFIX,ipinsight.io
+DOMAIN-SUFFIX,bgp.he.net
+DOMAIN-SUFFIX,bgpview.io
+# =========================================================
+# 6. 雲服務 / 節點商測試與特定排錯
 # =========================================================
 DOMAIN-SUFFIX,vultr.com
 DOMAIN-SUFFIX,workers.dev
@@ -69,6 +96,6 @@ DOMAIN-SUFFIX,888005.xyz
 DOMAIN-SUFFIX,1-b.net
 DOMAIN-SUFFIX,ustc.edu.cn
 DOMAIN-SUFFIX,l.google.com
-# === 备用网飞测试项（保持原样注释） ===
+#=== 備用網飛測試項（保持原樣注釋） ===
 # DOMAIN,ichnaea-web.netflix.com
 # DOMAIN-SUFFIX,1.oca.nflxvideo.net
